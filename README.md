@@ -63,3 +63,7 @@ Pull requests and suggestions are welcome! If you find a bug or have an idea, op
 ## License
 
 Apache 2.0
+
+## Privacy
+
+This extension does not collect any user data as defined in the categories above. It only stores a user-specified list of website domains in chrome.storage.sync to toggle dark/light mode, and accesses the current tab's hostname to apply these settings. No personal data, web history, or user activity is collected.
