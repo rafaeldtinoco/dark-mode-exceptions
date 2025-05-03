@@ -27,16 +27,16 @@ Chrome's built-in dark mode often produces inconsistent results across different
 
 1. **Enable Chrome's Auto Dark Mode:**  
    <img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/e0504851-6eed-428f-8ea4-592bbbd1e244" />
-   - Go to [chrome://flags/#enable-force-dark](chrome://flags/#enable-force-dark).
+   - Go to `chrome://flags/#enable-force-dark`.
    - Set to `Enabled with Selective inversion of non-image elements`.
    - **Relaunch** Chrome.
    
 2. **Install Extension:**  
    <img width="20%" alt="image" src="https://github.com/user-attachments/assets/14865efa-cecd-4f28-93db-7bb5bf6eac4f" />   
-   - Download/clone repository (or download the zip file).
-   - Go to [chrome://extensions/](chrome://extensions/).
+   - Download this repository as a zip file.
+   - Go to `chrome://extensions/` (in your location bar).
    - Enable **Developer mode**.
-   - Click **Load unpacked** and select the downloaded zip file.
+   - Drag the zip file into the screen so it is installed.
 
 3. **Exclude a Domain:**
    - Pin the extension to the toolbar.
