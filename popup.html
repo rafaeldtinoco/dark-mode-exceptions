@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dark Mode Exceptions</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 14px;
+      }
+      button {
+        padding: 6px 10px;
+        margin: 8px;
+        cursor: pointer;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 12px;
+      }
+      /* Green for sites not in exclude list */
+      button.not-excluded {
+        background-color: #2d8a30;
+      }
+      button.not-excluded:hover {
+        background-color: #236b26;
+      }
+      /* Blue for sites already in exclude list */
+      button.excluded {
+        background-color: #0d6ebd;
+      }
+      button.excluded:hover {
+        background-color: #0a5694;
+      }
+      #status {
+        margin-top: 8px;
+        font-size: 12px;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 8px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Dark Mode Exceptions</h3>
+    <button id="toggleButton">Toggle Domain</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
