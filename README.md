@@ -1,28 +1,27 @@
 # Dark Mode Exceptions
 
-**Dark Mode Exceptions** is a simple Chrome extension that lets you control which websites use dark mode. It works with Chrome's built-in "Auto Dark Mode for Web Contents" feature, allowing you to:
+Chrome's built-in "Auto Dark Mode for Web Contents" feature (`chrome://flags`) is one of the best dark-mode "extensions" for google chrome (and derivatives). However there is one small problem: there is no quick **opt-out** from dark mode once it is enabled. **Dark Mode Exceptions** is a simple extension that allows you to add exceptions to the dark mode.
 
-- Exclude websites from Chrome's dark mode in one click.
-- Keep dark mode on most sites. View others in their original light design.
-- Apply site-specific dark mode settings. Light mode won't interfere with site design.
-- Use extensions like [Dark Reader](https://darkreader.org/) on excluded sites for better (or different) dark mode.
+With this extension you might:
+
+- Keep dark mode on most sites by default (once you enable **Auto Dark Mode for Web Contents** feature).
+- Exclude websites from chrome's dark mode in **one click**.
+- View sites in light-mode, despite chrome's dark-mode settings.
+- Allow some sites to use their own dark theme, despite chrome's dark-mode settings.
+- Use [Dark Reader](https://darkreader.org/) on excluded sites (as an alternative dark mode on broken sites).
 - Toggle between modes instantly.
 
----
+> The extension is fully open-source and does not collect any user data.
 
 ## Why Use This Extension?
 
 Chrome's built-in dark mode often produces inconsistent results across different websites. Dark Mode Exceptions gives you control over which sites use dark mode, ensuring the best viewing experience for each website you visit.
-
----
 
 ## Screenshots
 
 <img src="images/one.png" width="25%" height="25%" alt="One">
 <img src="images/two.png" width="25%" height="25%" alt="Two">
 <img src="images/three.png" width="25%" height="25%" alt="Three">
-
----
 
 ## How It Works
 
@@ -32,7 +31,7 @@ Chrome's built-in dark mode often produces inconsistent results across different
    - Restart Chrome
 
 2. **Install Extension:**
-   - Download/clone repository
+   - Download/clone repository (or download the zip file).
    - Go to `chrome://extensions/`
    - Enable **Developer mode**
    - Click **Load unpacked** and select extension folder
@@ -53,8 +52,6 @@ Chrome's built-in dark mode often produces inconsistent results across different
 - Uses Chrome's `chrome.storage.sync` to remember your excluded domains.
 - Injects a small CSS snippet to force light mode on excluded sites.
 - No tracking, no ads, open source.
-
-----
 
 ## Contributing
 
